@@ -15,7 +15,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 **Windows:**
 ```shell
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 インストール後、ターミナルを再起動するか、新しいタブを開いてください。
